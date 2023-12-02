@@ -1,0 +1,90 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+726,0,3,"Oreskovic, Mr. Luka",male,20.0,0,0,315094,8.6625,,S
+862,0,2,"Giles, Mr. Frederick Edward",male,21.0,1,0,28134,11.5,,S
+529,0,3,"Salonen, Mr. Johan Werner",male,39.0,0,0,3101296,7.925,,S
+47,0,3,"Lennon, Mr. Denis",male,,1,0,370371,15.5,,Q
+628,1,1,"Longley, Miss. Gretchen Fiske",female,21.0,0,0,13502,77.9583,D9,S
+358,0,2,"Funk, Miss. Annie Clemmer",female,38.0,0,0,237671,13.0,,S
+891,0,3,"Dooley, Mr. Patrick",male,32.0,0,0,370376,7.75,,Q
+180,0,3,"Leonard, Mr. Lionel",male,36.0,0,0,LINE,0.0,,S
+563,0,2,"Norman, Mr. Robert Douglas",male,28.0,0,0,218629,13.5,,S
+880,1,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56.0,0,1,11767,83.1583,C50,C
+54,1,2,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29.0,1,0,2926,26.0,,S
+160,0,3,"Sage, Master. Thomas Henry",male,,8,2,CA. 2343,69.55,,S
+99,1,2,"Doling, Mrs. John T (Ada Julia Bone)",female,34.0,0,1,231919,23.0,,S
+238,1,2,"Collyer, Miss. Marjorie ""Lottie""",female,8.0,0,2,C.A. 31921,26.25,,S
+815,0,3,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,364499,8.05,,S
+779,0,3,"Kilgannon, Mr. Thomas J",male,,0,0,36865,7.7375,,Q
+61,0,3,"Sirayanian, Mr. Orsen",male,22.0,0,0,2669,7.2292,,C
+733,0,2,"Knight, Mr. Robert J",male,,0,0,239855,0.0,,S
+617,0,3,"Danbom, Mr. Ernst Gilbert",male,34.0,1,1,347080,14.4,,S
+229,0,2,"Fahlstrom, Mr. Arne Jonas",male,18.0,0,0,236171,13.0,,S
+682,1,1,"Hassab, Mr. Hammad",male,27.0,0,0,PC 17572,76.7292,D49,C
+837,0,3,"Pasic, Mr. Jakob",male,21.0,0,0,315097,8.6625,,S
+631,1,1,"Barkworth, Mr. Algernon Henry Wilson",male,80.0,0,0,27042,30.0,A23,S
+126,1,3,"Nicola-Yarred, Master. Elias",male,12.0,1,0,2651,11.2417,,C
+697,0,3,"Kelly, Mr. James",male,44.0,0,0,363592,8.05,,S
+490,1,3,"Coutts, Master. Eden Leslie ""Neville""",male,9.0,1,1,C.A. 37671,15.9,,S
+519,1,2,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36.0,1,0,226875,26.0,,S
+205,1,3,"Cohen, Mr. Gurshon ""Gus""",male,18.0,0,0,A/5 3540,8.05,,S
+464,0,2,"Milling, Mr. Jacob Christian",male,48.0,0,0,234360,13.0,,S
+335,1,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,,1,0,PC 17611,133.65,,S
+473,1,2,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33.0,1,2,C.A. 34651,27.75,,S
+317,1,2,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24.0,1,0,244367,26.0,,S
+460,0,3,"O'Connor, Mr. Maurice",male,,0,0,371060,7.75,,Q
+100,0,2,"Kantor, Mr. Sinai",male,34.0,1,0,244367,26.0,,S
+839,1,3,"Chip, Mr. Chang",male,32.0,0,0,1601,56.4958,,S
+694,0,3,"Saad, Mr. Khalil",male,25.0,0,0,2672,7.225,,C
+391,1,1,"Carter, Mr. William Ernest",male,36.0,1,2,113760,120.0,B96 B98,S
+720,0,3,"Johnson, Mr. Malkolm Joackim",male,33.0,0,0,347062,7.775,,S
+14,0,3,"Andersson, Mr. Anders Johan",male,39.0,1,5,347082,31.275,,S
+583,0,2,"Downton, Mr. William James",male,54.0,0,0,28403,26.0,,S
+819,0,3,"Holm, Mr. John Fredrik Alexander",male,43.0,0,0,C 7075,6.45,,S
+870,1,3,"Johnson, Master. Harold Theodor",male,4.0,1,1,347742,11.1333,,S
+465,0,3,"Maisner, Mr. Simon",male,,0,0,A/S 2816,8.05,,S
+154,0,3,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,A/5. 851,14.5,,S
+95,0,3,"Coxon, Mr. Daniel",male,59.0,0,0,364500,7.25,,S
+481,0,3,"Goodwin, Master. Harold Victor",male,9.0,5,2,CA 2144,46.9,,S
+64,0,3,"Skoog, Master. Harald",male,4.0,3,2,347088,27.9,,S
+455,0,3,"Peduzzi, Mr. Joseph",male,,0,0,A/5 2817,8.05,,S
+233,0,2,"Sjostedt, Mr. Ernst Adolf",male,59.0,0,0,237442,13.5,,S
+245,0,3,"Attalah, Mr. Sleiman",male,30.0,0,0,2694,7.225,,C
+58,0,3,"Novel, Mr. Mansouer",male,28.5,0,0,2697,7.2292,,C
+427,1,2,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28.0,1,0,2003,26.0,,S
+582,1,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39.0,1,1,17421,110.8833,C68,C
+135,0,2,"Sobey, Mr. Samuel James Hayden",male,25.0,0,0,C.A. 29178,13.0,,S
+272,1,3,"Tornquist, Mr. William Henry",male,25.0,0,0,LINE,0.0,,S
+625,0,3,"Bowen, Mr. David John ""Dai""",male,21.0,0,0,54636,16.1,,S
+542,0,3,"Andersson, Miss. Ingeborg Constanzia",female,9.0,4,2,347082,31.275,,S
+223,0,3,"Green, Mr. George Henry",male,51.0,0,0,21440,8.05,,S
+510,1,3,"Lang, Mr. Fang",male,26.0,0,0,1601,56.4958,,S
+883,0,3,"Dahlberg, Miss. Gerda Ulrika",female,22.0,0,0,7552,10.5167,,S
+62,1,1,"Icard, Miss. Amelie",female,38.0,0,0,113572,80.0,B28,
+809,0,2,"Meyer, Mr. August",male,39.0,0,0,248723,13.0,,S
+654,1,3,"O'Leary, Miss. Hanora ""Norah""",female,,0,0,330919,7.8292,,Q
+493,0,1,"Molson, Mr. Harry Markland",male,55.0,0,0,113787,30.5,C30,S
+808,0,3,"Pettersson, Miss. Ellen Natalia",female,18.0,0,0,347087,7.775,,S
+442,0,3,"Hampe, Mr. Leon",male,20.0,0,0,345769,9.5,,S
+571,1,2,"Harris, Mr. George",male,62.0,0,0,S.W./PP 752,10.5,,S
+768,0,3,"Mangan, Miss. Mary",female,30.5,0,0,364850,7.75,,Q
+535,0,3,"Cacic, Miss. Marija",female,30.0,0,0,315084,8.6625,,S
+300,1,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50.0,0,1,PC 17558,247.5208,B58 B60,C
+454,1,1,"Goldenberg, Mr. Samuel L",male,49.0,1,0,17453,89.1042,C92,C
+598,0,3,"Johnson, Mr. Alfred",male,49.0,0,0,LINE,0.0,,S
+847,0,3,"Sage, Mr. Douglas Bullen",male,,8,2,CA. 2343,69.55,,S
+35,0,1,"Meyer, Mr. Edgar Joseph",male,28.0,1,0,PC 17604,82.1708,,C
+278,0,2,"Parkes, Mr. Francis ""Frank""",male,,0,0,239853,0.0,,S
+109,0,3,"Rekic, Mr. Tido",male,38.0,0,0,349249,7.8958,,S
+642,1,1,"Sagesser, Mlle. Emma",female,24.0,0,0,PC 17477,69.3,B35,C
+468,0,1,"Smart, Mr. John Montgomery",male,56.0,0,0,113792,26.55,,S
+217,1,3,"Honkanen, Miss. Eliina",female,27.0,0,0,STON/O2. 3101283,7.925,,S
+111,0,1,"Porter, Mr. Walter Chamberlain",male,47.0,0,0,110465,52.0,C110,S
+141,0,3,"Boulos, Mrs. Joseph (Sultana)",female,,0,2,2678,15.2458,,C
+644,1,3,"Foo, Mr. Choong",male,,0,0,1601,56.4958,,S
+532,0,3,"Toufik, Mr. Nakli",male,,0,0,2641,7.2292,,C
+798,1,3,"Osman, Mrs. Mara",female,31.0,0,0,349244,8.6833,,S
+830,1,1,"Stone, Mrs. George Nelson (Martha Evelyn)",female,62.0,0,0,113572,80.0,B28,
+366,0,3,"Adahl, Mr. Mauritz Nils Martin",male,30.0,0,0,C 7076,7.25,,S
+621,0,3,"Yasbeck, Mr. Antoni",male,27.0,1,0,2659,14.4542,,C
+110,1,3,"Moran, Miss. Bertha",female,,1,0,371110,24.15,,Q
+424,0,3,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28.0,1,1,347080,14.4,,S

@@ -1,0 +1,154 @@
+
+  body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: #000000;
+    
+  }
+  
+  label{
+    padding-right: 1px;
+  }
+
+  div.ticket-back{
+    display:flex;
+    justify-content:space-between;
+    align-items: space-around;
+    flex-direction: column;
+    background: #ffffff 
+    url(https://static.vecteezy.com/system/resources/previews/022/470/055/large_2x/old-paper-texture-elegant-black-and-white-vintage-paper-background-with-copy-space-photo.jpg) 
+    center center/cover no-repeat;
+    opacity: 0.8;
+    padding: 5px; /* Adiciona um preenchimento para melhorar a aparência */
+
+  }
+
+  div.ticket-row{
+    display:flex;
+    justify-content:space-between;
+    align-items: stretch;
+    flex-direction: row;
+  }
+
+  div.ticket-col{
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  #surv{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 1px solid #8b735b; /* Cor que lembra papel antigo */
+    background-color: #f4ede93c; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  /* Estilo do input */
+  input.vintage {
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #8b735b; /* Cor que lembra papel antigo */
+    background-color: #f4ede93c; /* Cor de fundo */
+    color: #5d544a; /* Cor do texto */
+    border-radius: 4px;
+    width: 200px;
+    transition: border-color 0.3s, background-color 0.3s;
+    
+  }
+
+  input::placeholder {
+    font-style: italic;
+    opacity: 0.7;
+    color: black;
+  }
+  
+  /* Efeito de foco */
+  input.vintage:focus {
+    outline: none;
+    border-color: #bf9d7a; /* Cor do contorno ao focar */
+    background-color: #fff9f37a; /* Cor de fundo ao focar */
+  }
+
+
+  div{
+    padding: 5px;
+  }
+
+  /* Estilo base do botão */
+.pirate-button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4d4d33;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* Efeito de hover */
+  .pirate-button:hover {
+    background-color: #ffd700;
+    color: #4d4d33;
+  }
+  
+  /* Efeito de clique */
+  .pirate-button:active {
+    background-color: #8b735b;
+    border-color: #4d4d33;
+  }
+  
+  /* Ícone de caveira e ossos cruzados */
+  .pirate-button::before {
+    content: "\2620";
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Estilo opcional de texto adicional */
+  .pirate-button span {
+    margin-left: 5px;
+  }
+
+  /* Estilo para botão desativado */
+.pirate-button:disabled {
+    background-color: #808080; /* Cinza para indicar desativação */
+    border-color: #d3d3d3;
+    color: #a9a9a9; /* Cor de texto mais clara para indicar desativação */
+    cursor: not-allowed; /* Cursor indicando que o botão não está disponível */
+  }
+  
+  /* Estilo opcional para ícone desativado */
+  .pirate-button:disabled::before {
+    color: #a9a9a9;
+  }
+  
+  
+  /* Estilo do rótulo (opcional) */
+  /* label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #f4ede9;
+    padding: 0 5px;
+    color: #8b735b;
+    font-size: 14px;
+  } */
+  
+  /* Efeito de rótulo flutuante ao focar o input */
+  /* input:focus + .label,
+  input:not(:placeholder-shown) + .label {
+    transform: translateY(-12px);
+    font-size: 12px;
+    color: #bf9d7a;
+  } */
+
