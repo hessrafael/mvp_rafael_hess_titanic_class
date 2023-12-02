@@ -1,11 +1,8 @@
-import pytest
 import pandas as pd
 import numpy as np
 from model import Modelo
 from sklearn.metrics import accuracy_score
 
-def setup_function():
-    print('Inicion do teste')
 
 def test_model_accuracy():
     # Carregando modelo
@@ -55,6 +52,8 @@ def test_model_accuracy():
         dataset['Age'].loc[indice] = idade_prevista
 
     ## Fim do pre-processamento ##
+
+    # Teste para ver se a accuracy do modelo importante é maior que 75%
     array = dataset.values
     y_true = array[:,0]
     X_golden = array[:,1:]
