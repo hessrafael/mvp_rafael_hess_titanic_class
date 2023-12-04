@@ -50,11 +50,11 @@ def predict(form: PassageiroSchema):
     """
     
     # Carregando modelo
-    ml_path = 'ml_model/modelo_final_SVM_Titanic.pkl'
+    ml_path = 'ml_model/modelo_final_SVM_Padronizado.pkl'
     modelo = Modelo.carrega_pkl(ml_path)
 
     # Carregando o scaler
-    scaler_path = 'ml_model/scaler.pkl'
+    scaler_path = 'ml_model/scaler_padr.pkl'
     scaler = Modelo.carrega_pkl(scaler_path)
 
     # Convertendo o form em dataset
