@@ -4,7 +4,7 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [survivedInfo, setSurvivedInfo] = useState(null);
+  const [survivedInfo, setSurvivedInfo] = useState("");
 
 
   //Handler para lidar com a adição de passageiro

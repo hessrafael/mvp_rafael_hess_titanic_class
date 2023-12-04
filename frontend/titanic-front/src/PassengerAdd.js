@@ -84,6 +84,9 @@ function PassengerAdd(props){
                 <span>
                     <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Whitestarline.svg/1024px-Whitestarline.svg.png' alt='White Star Line logo'  width="230" height="193"></img>
                 </span>
+                <span>
+                    <img src={process.env.PUBLIC_URL +'/Titanic_logo.png'} alt='Titanic logo'  width="505" height="288"></img>
+                </span>
                 <div> 
                     <label htmlFor="Class">Classe:</label>
                     <div>

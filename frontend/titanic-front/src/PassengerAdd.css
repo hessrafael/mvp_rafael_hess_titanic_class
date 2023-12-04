@@ -28,6 +28,7 @@
     justify-content:space-between;
     align-items: stretch;
     flex-direction: row;
+    padding-inline: 50px;
   }
 
   div.ticket-col{
@@ -132,23 +133,4 @@
     color: #a9a9a9;
   }
   
-  
-  /* Estilo do rótulo (opcional) */
-  /* label {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    background-color: #f4ede9;
-    padding: 0 5px;
-    color: #8b735b;
-    font-size: 14px;
-  } */
-  
-  /* Efeito de rótulo flutuante ao focar o input */
-  /* input:focus + .label,
-  input:not(:placeholder-shown) + .label {
-    transform: translateY(-12px);
-    font-size: 12px;
-    color: #bf9d7a;
-  } */
 
