@@ -9,7 +9,6 @@ function App() {
 
   //Handler para lidar com a adição de passageiro
   function handleAddPassenger(passenger) {
-    console.log('caiu no handle')
     //Constroi formulário para envio da informação dos atributos
     const formData = new FormData();
     formData.append('pclass', passenger.l_pclass);

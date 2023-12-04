@@ -12,12 +12,6 @@ function PassengerAdd(props){
     const [sex, setSex] = useState("")
     const [age, setAge] = useState("")
     const survived = props.survivedInfo
-    // const [survived, setSurvived] = useState("")
-
-    // useEffect(() => {
-    //     // A propriedade 'survivedInfo' será atualizada quando 'props.survivedInfo' mudar
-    //     setSurvived(props.survivedInfo);
-    //   }, [props.survivedInfo]);
     
     //Função para resetar os campos de adição após adicionar
     function clearStates(){
@@ -32,7 +26,6 @@ function PassengerAdd(props){
     setSex("");
     setAge("");
     props.onFormClear()
-    //setSurvived("");
     
     }
 
@@ -63,11 +56,7 @@ function PassengerAdd(props){
             l_fare: fare,
             l_embarked: embarked
         };        
-        props.onSubmit(passenger);
-        //Reseta o componente form
-        //event.target.reset();
-        //Limpa os estados
-        //clearStates();
+        props.onSubmit(passenger);        
     }
 
     function changeRadio(event){
@@ -77,7 +66,7 @@ function PassengerAdd(props){
 
     return(
         <span>
-        <button onClick={logStates}>Ver Estados</button>
+        {/* <button onClick={logStates}>Ver Estados</button> */}
         <form onSubmit={handleFormSubmit} id='create-passenger-form' className='PassengerAdd'>
         <div  className='ticket-back'>
             <div className='ticket-row'>
