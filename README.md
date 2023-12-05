@@ -5,7 +5,7 @@ O presente repositório serve para criação de um modelo de classificação o T
 
 O modelo foi treinado com o arquivo "train.csv" de onde foi extraído o "golden_dataset.csv", para validação via testes unitários (ambos presentes na raiz do repositório).
 
-A lógica de montagem do modelo e preparação dos dados está presente em: https://colab.research.google.com/drive/11V-0DVKBiW18EVQJTz8L64VHQRAySUY-?usp=sharing 
+A lógica de montagem do modelo e preparação dos dados está presente em: https://colab.research.google.com/drive/11V-0DVKBiW18EVQJTz8L64VHQRAySUY-?usp=sharing ou então no arquivo ipynb na raiz do repositório.
 
 O modelo final e o scaler encontram-se na pasta "ml_model"
 
