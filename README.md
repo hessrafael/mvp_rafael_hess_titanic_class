@@ -30,6 +30,12 @@ Após, execute o script "activate" no seguinte caminho:
 ```
 Você deverá ver que o ambiente virtual foi ativado
 
+Após, instale os requisitos em "requirements.txt" executando o comando:
+
+```
+(env310) pip install -r requirements.txt
+```
+
 Finalmente, basta rodar o comando:
 
 ```
